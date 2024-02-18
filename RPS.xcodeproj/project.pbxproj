@@ -16,6 +16,7 @@
 		CBAA70F22B8253BC00CB9D41 /* RPSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAA70F12B8253BC00CB9D41 /* RPSTests.swift */; };
 		CBAA70FC2B8253BC00CB9D41 /* RPSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAA70FB2B8253BC00CB9D41 /* RPSUITests.swift */; };
 		CBAA70FE2B8253BC00CB9D41 /* RPSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAA70FD2B8253BC00CB9D41 /* RPSUITestsLaunchTests.swift */; };
+		CBAA710B2B82580100CB9D41 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAA710A2B82580100CB9D41 /* GameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CBAA70F72B8253BC00CB9D41 /* RPSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RPSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBAA70FB2B8253BC00CB9D41 /* RPSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPSUITests.swift; sourceTree = "<group>"; };
 		CBAA70FD2B8253BC00CB9D41 /* RPSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CBAA710A2B82580100CB9D41 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				CBAA70DA2B8253B500CB9D41 /* AppDelegate.swift */,
 				CBAA70DC2B8253B500CB9D41 /* SceneDelegate.swift */,
 				CBAA70DE2B8253B500CB9D41 /* ViewController.swift */,
+				CBAA710A2B82580100CB9D41 /* GameViewController.swift */,
 				CBAA70E02B8253B500CB9D41 /* Main.storyboard */,
 				CBAA70E32B8253BC00CB9D41 /* Assets.xcassets */,
 				CBAA70E52B8253BC00CB9D41 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBAA710B2B82580100CB9D41 /* GameViewController.swift in Sources */,
 				CBAA70DF2B8253B500CB9D41 /* ViewController.swift in Sources */,
 				CBAA70DB2B8253B500CB9D41 /* AppDelegate.swift in Sources */,
 				CBAA70DD2B8253B500CB9D41 /* SceneDelegate.swift in Sources */,
