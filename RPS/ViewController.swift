@@ -16,6 +16,12 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBAction
+    func unwindToHome(segue: UIStoryboardSegue){
+        
+        
+    }
+    
     
     @IBAction func startGame(){
         let vc = (storyboard?.instantiateViewController(withIdentifier: "GameViewController"))!
