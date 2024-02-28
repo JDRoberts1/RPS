@@ -63,7 +63,6 @@ class GameViewController: UIViewController{
         
         decideWinner()
         
-        resetBoard()
     }
     
     func showPlayer1(){
@@ -129,6 +128,10 @@ class GameViewController: UIViewController{
     func resetBoard() {
         Player1Choice.isHidden = true
         Player2Choice.isHidden = true
+        player1Score = 0
+        player2Score = 0
+        Player1ScoreLabel.text = String(player1Score)
+        Player2ScoreLabel.text = String(player2Score)
     }
     
     
